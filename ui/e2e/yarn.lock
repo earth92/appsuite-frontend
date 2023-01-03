@@ -2481,10 +2481,10 @@ os-tmpdir@~1.0.2:
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
   integrity sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==
 
-otpauth@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/otpauth/-/otpauth-8.0.1.tgz#41eefecea6c928ba90d2edd10252965164569bc8"
-  integrity sha512-m39abRFJ3XMchK6Or9TOxErai3X8pk4/DpArOygYguBRYtRaVT53hL6+PV5BxYWVkcnIkPQqJg36ijvD8FvqSA==
+otpauth@^8.0.3:
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/otpauth/-/otpauth-8.0.3.tgz#fdbcb24503e93dd7d930a8651f2dc9f8f7ff9c1b"
+  integrity sha512-5abBweT/POpMdVuM0Zk/tvlTHw8Kc8606XX/w8QNLRBDib+FVpseAx12Z21/iVIeCrJOgCY1dBuLS057IOdybw==
   dependencies:
     jssha "~3.2.0"
 
