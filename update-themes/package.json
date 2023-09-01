@@ -9,15 +9,18 @@
   "description": "A tool to manually update a set of themes for Open-Xchange Appsuite",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Julian B??ume",
   "dependencies": {
     "assemble-less": "0.7.0",
     "grunt": "^1.0.4",
     "grunt-contrib-clean": "2.0.0",
-    "less": "1.7.5",
-    "underscore": "^1.9.2"
+    "less": "2.1.0",
+    "underscore": "^1.9.2",
+    "@snyk/protect": "latest"
   },
   "optionalDependencies": {
     "eslint": "^6.0.0",
@@ -34,5 +37,6 @@
   },
   "devDependencies": {
     "eslint-plugin-license-header": "^0.2.0"
-  }
+  },
+  "snyk": true
 }
