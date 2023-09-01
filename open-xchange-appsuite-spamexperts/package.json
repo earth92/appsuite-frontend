@@ -36,5 +36,13 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-karma": "^3.0.2",
     "karma": "^4.1.0"
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }
