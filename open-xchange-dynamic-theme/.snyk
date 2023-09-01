@@ -1,0 +1,69 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - assemble-less > less > request > extend:
+        patched: '2023-09-01T16:56:06.241Z'
+        id: 'npm:extend:20180424'
+        path: assemble-less > less > request > extend
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2023-09-01T16:56:06.241Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > lodash
+    - eslint > inquirer > lodash:
+        patched: '2023-09-01T16:56:06.241Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > inquirer > lodash
+    - grunt-contrib-clean > async > lodash:
+        patched: '2023-09-01T16:56:06.241Z'
+        id: SNYK-JS-LODASH-567746
+        path: grunt-contrib-clean > async > lodash
+    - open-xchange-shared-grunt-config > async > lodash:
+        patched: '2023-09-01T16:56:06.241Z'
+        id: SNYK-JS-LODASH-567746
+        path: open-xchange-shared-grunt-config > async > lodash
+    - eslint > table > lodash:
+        patched: '2023-09-01T16:56:06.241Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > table > lodash
+    - grunt-eslint > eslint > lodash:
+        patched: '2023-09-01T16:56:06.241Z'
+        id: SNYK-JS-LODASH-567746
+        path: grunt-eslint > eslint > lodash
+    - grunt-eslint > eslint > inquirer > lodash:
+        patched: '2023-09-01T16:56:06.241Z'
+        id: SNYK-JS-LODASH-567746
+        path: grunt-eslint > eslint > inquirer > lodash
+    - grunt-eslint > eslint > table > lodash:
+        patched: '2023-09-01T16:56:06.241Z'
+        id: SNYK-JS-LODASH-567746
+        path: grunt-eslint > eslint > table > lodash
+    - grunt-require-gettext > lodash:
+        patched: '2023-09-01T16:56:06.241Z'
+        id: SNYK-JS-LODASH-567746
+        path: grunt-require-gettext > lodash
+    - grunt > grunt-legacy-log > lodash:
+        patched: '2023-09-01T16:56:06.241Z'
+        id: SNYK-JS-LODASH-567746
+        path: grunt > grunt-legacy-log > lodash
+    - grunt > grunt-legacy-util > lodash:
+        patched: '2023-09-01T16:56:06.241Z'
+        id: SNYK-JS-LODASH-567746
+        path: grunt > grunt-legacy-util > lodash
+    - grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2023-09-01T16:56:06.241Z'
+        id: SNYK-JS-LODASH-567746
+        path: grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash
+  'npm:mime:20170907':
+    - assemble-less > less > mime:
+        patched: '2023-09-01T16:56:06.241Z'
+        id: 'npm:mime:20170907'
+        path: assemble-less > less > mime
+  'npm:minimatch:20160620':
+    - helper-glob > globby > glob > minimatch:
+        patched: '2023-09-01T16:56:06.241Z'
+        id: 'npm:minimatch:20160620'
+        path: helper-glob > globby > glob > minimatch
