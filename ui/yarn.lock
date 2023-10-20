@@ -109,12 +109,12 @@
   dependencies:
     async "^2.4.1"
 
-"@open-xchange/tinymce@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.yarnpkg.com/@open-xchange/tinymce/-/tinymce-6.0.8.tgz#ef10aaea1d159fa3a76177aeab33d7e8a549afe1"
-  integrity sha512-VZLx1oNhzvmJShr5Q5xgTFaT/2vTk2WbIeh+h/mC4xas8VZahQ3hFH4wiuZl4cQ05/0s38/VvlcUa2HMmQ9eRQ==
+"@open-xchange/tinymce@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@open-xchange/tinymce/-/tinymce-7.0.0.tgz#dd2e1a4801a6c50a680ecd01ccda0e4c2abbc9b2"
+  integrity sha512-XEqMHOA/5PW/Vt5ws1jxumhX2Pe8s0WeHTqaHjeqf0IHxWGGYP7GD6Yok/hZv4i15WWfVJrs71f+tWzHL8gRpw==
   dependencies:
-    tinymce "^4.8.0"
+    tinymce "^5.6.0"
 
 "@open-xchange/ui-middleware@^7.10.0":
   version "7.10.2"
@@ -6450,15 +6450,10 @@ tiny-lr@^1.1.1:
     object-assign "^4.1.0"
     qs "^6.4.0"
 
-tinymce@4.9.10:
-  version "4.9.10"
-  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-4.9.10.tgz#47bd7b4d27d80d53a464356eb7c72b97e5c3aadd"
-  integrity sha512-vyzGG04Q44Y7zWIKA4c+G7MxMCsed6JkrhU+k0TaDs9XKAiS+e+D3Fzz5OIJ7p5keF7lbRK5czgI8T1JtouZqw==
-
-tinymce@^4.8.0:
-  version "4.9.11"
-  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-4.9.11.tgz#e3dae099722294c5b8d84ba7ef18dd126de6b582"
-  integrity sha512-nkSLsax+VY5DBRjMFnHFqPwTnlLEGHCco82FwJF2JNH6W+5/ClvNC1P4uhD5lXPDNiDykSHR0XJdEh7w/ICHzA==
+tinymce@5.10.8, tinymce@^5.6.0:
+  version "5.10.8"
+  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-5.10.8.tgz#c85758fa3cca2cbb4b14dd037a0b315b6462c50e"
+  integrity sha512-iyoo3VGMAJhLMDdblAefKvYgBRk9kQi58GTwAmoieqsyggGsKZWlQl/YY6nTILFHUCA1FhYu0HdmM5YYjs17UQ==
 
 tmp@0.2.1:
   version "0.2.1"
