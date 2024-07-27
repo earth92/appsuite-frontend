@@ -67,7 +67,7 @@
     "backbone-validation": "0.11.5",
     "bigscreen": "2.0.5",
     "blankshield": "0.6.3",
-    "bootstrap": "3.4.1",
+    "bootstrap": "4.0.0",
     "chart.js": "^3.6.0",
     "cldr-dates-modern": "36.0.0",
     "clipboard": "^2.0.11",
