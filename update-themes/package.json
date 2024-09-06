@@ -14,9 +14,9 @@
   "author": "Julian B??ume",
   "dependencies": {
     "assemble-less": "0.7.0",
-    "grunt": "^1.0.4",
-    "grunt-contrib-clean": "2.0.0",
-    "less": "1.7.5",
+    "grunt": "^1.4.0",
+    "grunt-contrib-clean": "2.0.1",
+    "less": "3.11.2",
     "underscore": "^1.9.2"
   },
   "optionalDependencies": {
