@@ -1721,10 +1721,10 @@ dom7@^3.0.0:
   dependencies:
     ssr-window "^3.0.0-alpha.1"
 
-dompurify@^2.3.6:
-  version "2.3.6"
-  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.3.6.tgz#2e019d7d7617aacac07cbbe3d88ae3ad354cf875"
-  integrity sha512-OFP2u/3T1R5CEgWCEONuJ1a5+MFKnOYpkywpUSxv/dj1LeBT1erK+JwM7zK0ROy2BRhqVCf0LRw/kHqKuMkVGg==
+dompurify@^2.5.0:
+  version "2.5.7"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.5.7.tgz#6e0d36b9177db5a99f18ade1f28579db5ab839d7"
+  integrity sha512-2q4bEI+coQM8f5ez7kt2xclg1XsecaV9ASJk/54vwlfRRNQfDqJz2pzQ8t0Ix/ToBpXlVjrRIx7pFC/o8itG2Q==
 
 dotenv-defaults@^3.0.2:
   version "3.0.2"
